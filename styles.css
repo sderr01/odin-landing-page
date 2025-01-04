@@ -24,18 +24,17 @@ header{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 0 50px 100px ;
+    padding: 10px 50px 100px;
 }
 #hero h2{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    margin: 0;
+    margin-top: 0;
 }
 #hero p, #hero button {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0;
 }
 #hero button{
     background-color: #3882f6;
@@ -44,15 +43,19 @@ header{
     border-radius: 8px;
     font-weight: bolder;
 }
+
 #hero-img{
     background-color: #858688;
     width: 500px;
     height: 200px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #hero-block{
     display: inherit;
     margin-top: 50px;
+    justify-content: space-around;
 }
 
 
@@ -61,7 +64,10 @@ header{
 }
 #info-row-items {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.info-pair{
+    margin: 20px;
 }
 .info-pair-img {
     border: #3882f6 3px solid;
@@ -75,7 +81,7 @@ header{
 
 #quote {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 50px 400px;
 }
 #quote-text {
     font-size: 36px;
@@ -93,12 +99,12 @@ header{
 #calltoaction {
     background-color: #3882f6;
     color:#f9faf8;
-    margin: 50px;
-    padding: 30px;
+    margin: 50px auto;
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    width: 50%;
     border-radius: 10px;
 }
 #calltoaction button {
