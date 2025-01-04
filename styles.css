@@ -1,55 +1,127 @@
 * {
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 header{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #header-title{
     font-size: 24px;
-    color: #f9faf8;
+    color: #F9FaF8;
+    font-weight: 900;
 }
+#header-menu a{
+    color:#e5e7eb;
+    text-decoration: none;
+    margin: 10px;
+}
+
 
 
 #hero {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 100px ;
 }
 #hero h2{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
 }
 #hero p, #hero button {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
 }
 #hero button{
     background-color: #3882f6;
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+#hero-img{
+    background-color: #858688;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+#hero-block{
+    display: inherit;
+    margin-top: 50px;
 }
 
 
 #info {
+    text-align: center;
+}
+#info-row-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-pair-img {
+    border: #3882f6 3px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 
 }
 
+
+
 #quote {
     background-color: #e5e7eb;
+    padding: 100px;
 }
 #quote-text {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
 }
+#quote-person {
+    text-align: right;
+    font-weight: bold;
+}
+
 
 
 #calltoaction {
     background-color: #3882f6;
+    color:#f9faf8;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
 }
+#calltoaction button {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border: #e5e7eb 3px solid;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
 
 footer {
     background-color: #1f2937;
+    color:#f9faf8;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
